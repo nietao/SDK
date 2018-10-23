@@ -14,6 +14,8 @@
 		89F39C62217F11D8009F29D3 /* TTLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F39C61217F11D8009F29D3 /* TTLog.swift */; };
 		89F39C63217F11D8009F29D3 /* TTLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F39C61217F11D8009F29D3 /* TTLog.swift */; };
 		89F39C64217F11D8009F29D3 /* TTLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F39C61217F11D8009F29D3 /* TTLog.swift */; };
+		89F39C66217F21A9009F29D3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C1BFDE66BF88A556BBC51A09A41830 /* ReplaceMe.swift */; };
+		89F39C67217F21A9009F29D3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C1BFDE66BF88A556BBC51A09A41830 /* ReplaceMe.swift */; };
 		9501E0AAFB694C9E18A69CF4751867B1 /* SDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BFE1D7DC970DDE5D2C5D1A56AFA868F /* SDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2819D131AD4405AF683E4938BA84D72 /* Pods-SDKDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B35534FFBD7442357BE88960518587 /* Pods-SDKDemo_Tests-dummy.m */; };
 		CF501D293CC4E86E75E962CD27F3CE6E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C1BFDE66BF88A556BBC51A09A41830 /* ReplaceMe.swift */; };
@@ -68,7 +70,7 @@
 		B1B35534FFBD7442357BE88960518587 /* Pods-SDKDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		BC641B7B07C565FDAB2182DA5DB8597F /* Pods_SDKDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBAEA1A9DEC57A7ED33E7C6FC7E4381 /* Pods-SDKDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C3C1BFDE66BF88A556BBC51A09A41830 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SDKDemo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C3C1BFDE66BF88A556BBC51A09A41830 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		C7060CF15179C2AB79828ACC0D31C668 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7758F7C9F4DA54BEB577675B2B93616 /* Pods_SDKDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA77E0A01BE25862927CF0FF6F990E3 /* Pods-SDKDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -170,6 +172,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		89F39C65217F218F009F29D3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3C1BFDE66BF88A556BBC51A09A41830 /* ReplaceMe.swift */,
+				89F39C61217F11D8009F29D3 /* TTLog.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A8E137FC5E47F22B2A952303D88830D2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,8 +198,7 @@
 		B0EE18CEAAAECB633799F602389570DB /* SDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				89F39C61217F11D8009F29D3 /* TTLog.swift */,
-				C3C1BFDE66BF88A556BBC51A09A41830 /* ReplaceMe.swift */,
+				89F39C65217F218F009F29D3 /* Classes */,
 				FA6EF922649543A353256E04B593E751 /* Pod */,
 				A8E137FC5E47F22B2A952303D88830D2 /* Support Files */,
 			);
@@ -356,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F39C67217F21A9009F29D3 /* ReplaceMe.swift in Sources */,
 				89F39C63217F11D8009F29D3 /* TTLog.swift in Sources */,
 				A2819D131AD4405AF683E4938BA84D72 /* Pods-SDKDemo_Tests-dummy.m in Sources */,
 			);
@@ -365,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F39C66217F21A9009F29D3 /* ReplaceMe.swift in Sources */,
 				89F39C62217F11D8009F29D3 /* TTLog.swift in Sources */,
 				E83B5E731F7E4B9CD4D603969B3AF175 /* Pods-SDKDemo_Example-dummy.m in Sources */,
 			);
