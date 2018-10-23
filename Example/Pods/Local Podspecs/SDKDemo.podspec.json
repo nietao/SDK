@@ -1,0 +1,22 @@
+{
+  "name": "SDKDemo",
+  "version": "0.1.0",
+  "summary": "A short description of SDKDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1663888959@qq.com/SDKDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1663888959@qq.com": "nietao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/1663888959@qq.com/SDKDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SDKDemo/Classes/**/*"
+}

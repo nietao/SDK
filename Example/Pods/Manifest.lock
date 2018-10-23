@@ -1,0 +1,16 @@
+PODS:
+  - SDKDemo (0.1.0)
+
+DEPENDENCIES:
+  - SDKDemo (from `../`)
+
+EXTERNAL SOURCES:
+  SDKDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDKDemo: 6df595b889ac0576b6edf9fd4caa1aedaf2462bf
+
+PODFILE CHECKSUM: 9bcfc99d5c64e59cf410aa05ecc7323e5db47585
+
+COCOAPODS: 1.5.3
